@@ -1,0 +1,69 @@
+//
+// Prefix header for all source files of the 'Vesper' target in the 'Vesper' project
+//
+
+
+@import Foundation;
+@import UIKit;
+@import QuartzCore;
+
+#define SYNC_TRANSITION 1 //When 1, it means syncing will be turned off soon, and new accounts are disallowed.
+#define TEST_SYNC_IS_OVER 0 //When 1, it acts as if we're past the end of syncing.
+#define USE_SAFARI_VIEW_CONTROLLER 1
+
+/*Q Branch Standard Kit*/
+
+#import "QSBlocks.h"
+#import "QSConstants.h"
+#import "QSHTTPConstants.h"
+#import "QSPlatform.h"
+#import "QSMath.h"
+#import "QSMimeTypes.h"
+#import "QSScaling.h"
+#import "NSArray+QSKit.h"
+#import "NSAttributedString+QSKit.h"
+#import "NSData+QSKit.h"
+#import "NSDate+QSKit.h"
+#import "NSDictionary+QSKit.h"
+#import "NSMutableArray+QSKit.h"
+#import "NSMutableDictionary+QSKit.h"
+#import "NSMutableSet+QSKit.h"
+#import "NSNotificationCenter+QSKit.h"
+#import "NSObject+QSKit.h"
+#import "NSString+QSKit.h"
+#import "NSTimer+QSKit.h"
+#import "NSURL+QSKit.h"
+#import "NSURLRequest+QSKit.h"
+#import "UIColor+QSKit.h"
+#import "UIImage+QSKit.h"
+#import "UIResponder+QSKit.h"
+#import "UIView+QSKit.h"
+#import "UIViewController+QSKit.h"
+
+
+#define app_delegate ((id<VSAppDelegate>)([UIApplication sharedApplication].delegate))
+#import "VSAppDelegateProtocol.h"
+
+#import "VSDateManager.h"
+#import "RSGeometry.h"
+#import "NSString+RSExtras.h"
+#import "UIImageView+RSExtras.h"
+#import "UITextView+RSExtras.h"
+#import "UIView+RSExtras.h"
+#import "VSConstants.h"
+#import "VSImageUtilities.h"
+#import "VSTheme.h"
+#import "VSThumbnailCache.h"
+#import "VSNote.h"
+#import "VSTimelineNote.h"
+#import "VSTag.h"
+#import "VSDataController.h"
+#import "VSAttachment.h"
+#import "VSSyncConstants.h"
+#import "VSAccount.h"
+#import "VSAPIResult.h"
+#import "FMDatabase.h"
+#import "QSDatabaseQueue.h"
+
+#define TESTING_DATABASE 0
+

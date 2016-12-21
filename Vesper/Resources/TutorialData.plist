@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>text</key>
+		<string>Collect your thoughts\nAdd tags to notes to group related items in playlist-like collections. These notes have all been tagged “Tutorial.”</string>
+		<key>uniqueID</key>
+		<integer>1</integer>
+		<key>date</key>
+		<string>2012-12-12T16:12:12.000Z</string>
+		<key>tags</key>
+		<array>
+			<string>Tutorial</string>
+		</array>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>Slide to archive\nDone with a note? Just slide it to the left to send it to the archive.</string>
+		<key>uniqueID</key>
+		<integer>2</integer>
+		<key>date</key>
+		<string>2012-12-12T15:12:12.000Z</string>
+		<key>tags</key>
+		<array>
+			<string>Tutorial</string>
+		</array>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>Attach photos\nTake a new picture, or choose one from your photo library.</string>
+		<key>uniqueID</key>
+		<integer>3</integer>
+		<key>tags</key>
+		<array>
+			<string>Tutorial</string>
+		</array>
+		<key>pictureAttachment</key>
+		<string>tutorial.jpg</string>
+		<key>pictureAttachmentID</key>
+		<string>tutorial3</string>
+		<key>date</key>
+		<string>2012-12-12T14:12:12.000Z</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>Prioritize\nTap and hold, then drag notes up or down to reorder them.</string>
+		<key>uniqueID</key>
+		<integer>4</integer>
+		<key>date</key>
+		<string>2012-12-12T13:12:12.000Z</string>
+		<key>tags</key>
+		<array>
+			<string>Tutorial</string>
+		</array>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>Need more help?\nVisit us at vesperapp.co.</string>
+		<key>uniqueID</key>
+		<integer>5</integer>
+		<key>date</key>
+		<string>2012-12-12T12:12:12.000Z</string>
+		<key>tags</key>
+		<array>
+			<string>Tutorial</string>
+		</array>
+	</dict>
+</array>
+</plist>
